@@ -68,7 +68,7 @@ services.addEventListener("touchstart", function (event) {
          if (window.location.href == 'https://artur-bednarski.onrender.com/applications' &&
          window.location.href == 'https://artur-bednarski.onrender.com/mechanics' &&
          window.location.href == 'https://artur-bednarski.onrender.com/games') services.style.backgroundColor = "white";      //services.style.backgroundColor = "#333";
-         else services.style.backgroundColor = 'rgb(128,128,128)'; 
+         
       isDropdownVisible = false;
       console.log(isDropdownVisible);
     }
