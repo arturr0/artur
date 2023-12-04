@@ -40,13 +40,16 @@ services.addEventListener("touchstart", function (event) {
       if (window.location.href == 'https://artur-bednarski.onrender.com/applications' ||
          window.location.href == 'https://artur-bednarski.onrender.com/mechanics' ||
          window.location.href == 'https://artur-bednarski.onrender.com/games') services.style.backgroundColor = "white";
+      else services.style.backgroundColor = 'rgb(128,128,128)';
       //$(".dropdown-content").css("display", "none");
       isDropdownVisible = false;
       console.log(isDropdownVisible);
     } else {
       //$(".dropdown-content").css("display", "block");
       services.style.backgroundColor = "#555";
-      
+      if (window.location.href == 'https://artur-bednarski.onrender.com/applications' ||
+         window.location.href == 'https://artur-bednarski.onrender.com/mechanics' ||
+         window.location.href == 'https://artur-bednarski.onrender.com/games') services.style.backgroundColor = "white";
       dropdownContent.classList.remove("hidden");
       isDropdownVisible = true;
       console.log(isDropdownVisible);
