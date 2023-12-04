@@ -43,7 +43,7 @@ services.addEventListener("touchstart", function (event) {
       console.log(isDropdownVisible);
     } else {
       //$(".dropdown-content").css("display", "block");
-      services.style.backgroundColor = "#555";
+      services.style.backgroundColor = "#FFFFFF";
       
       dropdownContent.classList.remove("hidden");
       isDropdownVisible = true;
