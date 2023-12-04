@@ -37,13 +37,15 @@ services.addEventListener("touchstart", function (event) {
     if (isDropdownVisible) {
       // Hide the dropdown
       dropdownContent.classList.add("hidden");
-      if (window.location.href == 'https://versed-apple-kicker.glitch.me/service5') services.style.backgroundColor = "white";
+      if (window.location.href == 'https://artur-bednarski.onrender.com/applications' &&
+         window.location.href == 'https://artur-bednarski.onrender.com/mechanics' &&
+         window.location.href == 'https://artur-bednarski.onrender.com/games') services.style.backgroundColor = "white";
       //$(".dropdown-content").css("display", "none");
       isDropdownVisible = false;
       console.log(isDropdownVisible);
     } else {
       //$(".dropdown-content").css("display", "block");
-      services.style.backgroundColor = "#FFFFFF";
+      services.style.backgroundColor = "rgb(128,128,128)";
       
       dropdownContent.classList.remove("hidden");
       isDropdownVisible = true;
