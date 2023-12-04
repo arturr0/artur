@@ -72,7 +72,7 @@ services.addEventListener("touchstart", function (event) {
       isDropdownVisible = false;
       console.log(isDropdownVisible);
     }
-    else services.style.backgroundColor = "rgb(128,128,128)"; 
+    
   });
   const images = document.querySelectorAll(".image");
     const viewer = document.getElementById("image-viewer");
