@@ -45,7 +45,7 @@ services.addEventListener("touchstart", function (event) {
       console.log(isDropdownVisible);
     } else {
       //$(".dropdown-content").css("display", "block");
-      services.style.backgroundColor = "rgb(128,128,128)";
+      services.style.backgroundColor = '#555';
       
       dropdownContent.classList.remove("hidden");
       isDropdownVisible = true;
@@ -64,8 +64,9 @@ services.addEventListener("touchstart", function (event) {
   document.addEventListener("touchstart", function () {
     if (isDropdownVisible) {
       dropdownContent.classList.add("hidden");
-      if (window.location.href == 'https://versed-apple-kicker.glitch.me/service5') document.getElementById("projects").style.backgroundColor = "white";
-      //services.style.backgroundColor = "#333";
+         if (window.location.href == 'https://artur-bednarski.onrender.com/applications' &&
+         window.location.href == 'https://artur-bednarski.onrender.com/mechanics' &&
+         window.location.href == 'https://artur-bednarski.onrender.com/games') services.style.backgroundColor = "white";      //services.style.backgroundColor = "#333";
       isDropdownVisible = false;
       console.log(isDropdownVisible);
     }
