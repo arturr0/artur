@@ -12,9 +12,9 @@ html(lang='en')
       currentURL = window.location.href;
       currURL = currentURL.toString();
       console.log(prevURL);
-      if ( prevURL != 'https://leaf-ivory-stocking.glitch.me/applications' &&
-      prevURL != 'https://leaf-ivory-stocking.glitch.me/mechanics' &&
-      prevURL != 'https://leaf-ivory-stocking.glitch.me/games' ) {
+      if ( prevURL != 'https://artur-bednarski.onrender.com/applications' &&
+      prevURL != 'https://artur-bednarski.onrender.com/mechanics' &&
+      prevURL != 'https://artur-bednarski.onrender.com/games' ) {
       if (sessionStorage.getItem("visit") === null) {
       updateCounter("type=visit-pageview")
       .then((data) => {
@@ -54,7 +54,7 @@ html(lang='en')
         stored = true;
       }
       function updateCounter(type) {
-      return fetch('https://leaf-ivory-stocking.glitch.me/api?' + type)
+      return fetch('https://artur-bednarski.onrender.com/api?' + type)
       .then((res) => res.json());
       }
     //console.log(window.location.href);
