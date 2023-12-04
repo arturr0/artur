@@ -14,7 +14,8 @@ html(lang='en')
       console.log(prevURL);
       if ( prevURL != 'https://artur-bednarski.onrender.com/applications' &&
       prevURL != 'https://artur-bednarski.onrender.com/mechanics' &&
-      prevURL != 'https://artur-bednarski.onrender.com/games' ) {
+      prevURL != 'https://artur-bednarski.onrender.com/games' &&
+      prevURL != 'https://artur-bednarski.onrender.com/') {
       if (sessionStorage.getItem("visit") === null) {
       updateCounter("type=visit-pageview")
       .then((data) => {
