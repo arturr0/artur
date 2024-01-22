@@ -17,10 +17,10 @@ html(lang='en')
       currentURL = window.location.href;
       currURL = currentURL.toString();
       console.log(prevURL);
-      if ( prevURL != 'https://artur-bednarski.onrender.com/applications' &&
-      prevURL != 'https://artur-bednarski.onrender.com/mechanics' &&
-      prevURL != 'https://artur-bednarski.onrender.com/games' &&
-      prevURL != 'https://artur-bednarski.onrender.com/') {
+      if ( prevURL != 'https://artur-bednarski-67b36908d357.herokuapp.com/applications' &&
+      prevURL != 'https://artur-bednarski-67b36908d357.herokuapp.com/mechanics' &&
+      prevURL != 'https://artur-bednarski-67b36908d357.herokuapp.com/games' &&
+      prevURL != 'https://artur-bednarski-67b36908d357.herokuapp.com/') {
       if (sessionStorage.getItem("visit") === null) {
       updateCounter("type=visit-pageview")
       .then((data) => {
